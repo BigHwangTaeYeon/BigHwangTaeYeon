@@ -119,29 +119,29 @@ content:
         quote: >
           떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
         description: | # this will include new lines to allow paragraphs
-              Restful API 구현<br>
-              레디스를 활용한 API 캐싱<br>
-              Mybatis -> JPA 마이그레이션<br>
-              Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축<br>
-              TDD 활용 (service layer)<br>
+          - Restful API 구현<br>
+          - 레디스를 활용한 API 캐싱<br>
+          - Mybatis -> JPA 마이그레이션<br>
+          - Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축<br>
+          - TDD 활용 (service layer)<br>
           <br>
           기술 스택
             - Java, Spring Boot, MariaDB, Redis
             - Junit5, JPA, Jenkins, Naver Cloud Platform, Nginx
           <br>
-          <mark>상황</mark> : <br>
+          상황</mark> : <br>
           <mark>실행</mark> : <br>
           <mark>결과</mark> : 
       - title: 화상채팅
         link: https://github.com/BigHwangTaeYeon/solo
         caption: 2024.04 ~ 2023.04
         quote: >
-          랜덤 화상 채팅 서비스 개발 (백엔드 개발)
+          랜덤 화상 채팅 서비스 개발 (백엔드 개발)fg
         description: | # this will include new lines to allow paragraphs
-              API 및 WebRTC를 P2P 방식으로 구현<br>
-              Redis로 리프레시 토큰 캐싱(인증관련)<br>
-              monolithic -> MSA(Spring Cloud) 아키텍쳐 전환<br>
-              Docker
+          - API 및 WebRTC를 P2P 방식으로 구현<br>
+          - Redis로 리프레시 토큰 캐싱(인증관련)<br>
+          - monolithic -> MSA(Spring Cloud) 아키텍쳐 전환<br>
+          - Docker
           <br>
           기술 스택
             - Java, Spring Boot, MariaDB, Redis
