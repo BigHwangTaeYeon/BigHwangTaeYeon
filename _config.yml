@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Tae Yeon Hwang
+title: Junior Web Developer
+email: gxd0214@gmail.com
+website: https://github.com/BigHwangTaeYeon/bighwangtaeyeon.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  BigHwangTaeYeon
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+# linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -45,7 +45,7 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   중소기업에서 풀스택으로 웹 서비스를 개발/배포/운영을 담당했습니다. 주요 업무를 완료한 후, 제품의 개선이 필요한 부분을 최적화했습니다.<br>
@@ -133,9 +133,8 @@ content:
             - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
             - <mark>Junit5</mark>, <mark>JPA</mark>, <mark>Jenkins</mark>
             - <mark>NCP</mark>, <mark>Nginx</mark>
-      - title: 펌프킨
+      - title: 화상채팅
         link: https://github.com/BigHwangTaeYeon/solo
-        sub_title: Junior Web Developer
         caption: 2022.10 ~ 2023.02
         quote: >
           랜덤 화상 채팅 서비스 개발
@@ -156,19 +155,18 @@ content:
       - layout: left
         title: 어떡
         link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
-        caption: 2024.02 ~ 2024.02
-        quote: >
-          떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
         description: | # this will include new lines to allow paragraphs
-          샬라샬라
-      - title: 펌프킨
+          - 젠킨스 파이프라인
+            상황 : 
+            실행 : 
+            결과 : 
+      - title: 화상채팅
         link: https://github.com/BigHwangTaeYeon/solo
-        sub_title: Junior Web Developer
-        caption: 2022.10 ~ 2023.02
-        quote: >
-          랜덤 화상 채팅 서비스 개발
         description: | # this will include new lines to allow paragraphs
-          샬라샬라
+          - 젠킨스 파이프라인
+            상황 : 
+            실행 : 
+            결과 : 
 
   # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
@@ -201,13 +199,13 @@ content:
         description: |
             - <mark>JSP</mark>, <mark>Java Script</mark>
 
-  - title: A Little More About Me
-    layout: text
-    content: |
-      - [학습](https://github.com/BigHwangTaeYeon/book_cs)
+  # - title: A Little More About Me
+  #   layout: text
+  #   content: |
+  #     - [학습](https://github.com/BigHwangTaeYeon/book_cs)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+  #     Look at this cool image  
+  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
