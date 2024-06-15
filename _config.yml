@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projects
+  - title: Projectsㅇ
     layout: list
     content:
       - layout: left
