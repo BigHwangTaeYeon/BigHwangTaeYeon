@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Projectsㅇ
+  - title: Projects
     layout: list
     content:
       - layout: left
@@ -115,7 +115,7 @@ content:
   - title: Side Projects
     layout: list
     content:
-      - layout: left
+      # - layout: left
         title: 어떡
         link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
         caption: 2024.02 ~ 2024.02
@@ -153,8 +153,23 @@ content:
       - layout: left
         title: 어떡
         link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
+        sub_title: 젠킨스 파이프라인
         description: | # this will include new lines to allow paragraphs
-          - 젠킨스 파이프라인
+            상황 : 
+            실행 : 
+            결과 : 
+        sub_title: 젠킨스 파이프라인
+        description: | # this will include new lines to allow paragraphs
+            상황 : 
+            실행 : 
+            결과 : 
+        sub_title: 젠킨스 파이프라인
+        description: | # this will include new lines to allow paragraphs
+            상황 : 
+            실행 : 
+            결과 : 
+        sub_title: 젠킨스 파이프라인
+        description: | # this will include new lines to allow paragraphs
             상황 : 
             실행 : 
             결과 : 
