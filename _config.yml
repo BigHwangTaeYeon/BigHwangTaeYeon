@@ -112,7 +112,6 @@ content:
             실행 : 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
             결과 : 정상적인 작동을 확인하고 업체에서는 그럴리 없다는 답변만 들었던 상황이라 더 확인해본 결과, 썬 마이크로시스템즈가 오라클에 인수되며 해당 JDK는 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서 sun 패키지는 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
 
-content:
   - title: Side Projects
     layout: list
     content:
@@ -148,7 +147,6 @@ content:
             - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
             - <mark>Thymeleaf</mark>
 
-content:
   - title: Trouble Shooting
     layout: list
     content:
