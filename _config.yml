@@ -108,77 +108,73 @@ content:
             상황 : 로컬과 개발 환경에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
             실행 : 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
             결과 : 정상적인 작동을 확인하고 업체에서는 그럴리 없다는 답변만 들었던 상황이라 더 확인해본 결과, 썬 마이크로시스템즈가 오라클에 인수되며 해당 JDK는 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서 sun 패키지는 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
-
-content:
-  - title: Side Projects
-    layout: list
-    content:
-      - layout: left
-        title: 어떡
-        link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
-        caption: 2024.02 ~ 2024.02
-        quote: >
-          떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
-        description: | # this will include new lines to allow paragraphs
-        - Java 언어 Spring 프레임워크로 API 구현
-        - 레디스를 활용한 API 캐싱
-        - Mybatis -≫ JPA 마이그레이션
-        - Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축
-        - TDD 활용
-          <br><br>
-          기술 스택
-            - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
-            - <mark>Junit5</mark>, <mark>JPA</mark>, <mark>Jenkins</mark>
-            - <mark>NCP</mark>, <mark>Nginx</mark>
-      - title: 화상채팅
-        link: https://github.com/BigHwangTaeYeon/solo
-        caption: 2022.10 ~ 2023.02
-        quote: >
-          랜덤 화상 채팅 서비스 개발
-        description: | # this will include new lines to allow paragraphs
-          - Java 언어 Spring 프레임워크로 API 및 WebRTC를 P2P 방식으로 구현
-          - Redis로 리프레시 토큰 캐싱(인증관련)
-          - monolithic -≫ MSA(Spring Cloud) 아키텍쳐 전환
-          - Docker
-          <br><br>
-          기술 스택
-            - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
-            - <mark>Thymeleaf</mark>
-
-content:
-  - title: Trouble Shooting
-    layout: list
-    content:
-      - layout: left
-        title: 어떡
-        link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
-        sub_title: 젠킨스 파이프라인
-        description: | # this will include new lines to allow paragraphs
-            상황 : 
-            실행 : 
-            결과 : 
-        sub_title: 젠킨스 파이프라인
-        description: | # this will include new lines to allow paragraphs
-            상황 : 
-            실행 : 
-            결과 : 
-        sub_title: 젠킨스 파이프라인
-        description: | # this will include new lines to allow paragraphs
-            상황 : 
-            실행 : 
-            결과 : 
-        sub_title: 젠킨스 파이프라인
-        description: | # this will include new lines to allow paragraphs
-            상황 : 
-            실행 : 
-            결과 : 
-      - title: 화상채팅
-        link: https://github.com/BigHwangTaeYeon/solo
-        description: | # this will include new lines to allow paragraphs
-          - 젠킨스 파이프라인
-            상황 : 
-            실행 : 
-            결과 : 
+  # - title: Side Projects
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: 어떡
+  #       link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
+  #       caption: 2024.02 ~ 2024.02
+  #       quote: >
+  #         떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
+  #       description: | # this will include new lines to allow paragraphs
+  #       - Java 언어 Spring 프레임워크로 API 구현
+  #       - 레디스를 활용한 API 캐싱
+  #       - Mybatis -≫ JPA 마이그레이션
+  #       - Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축
+  #       - TDD 활용
+  #         <br><br>
+  #         기술 스택
+  #           - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
+  #           - <mark>Junit5</mark>, <mark>JPA</mark>, <mark>Jenkins</mark>
+  #           - <mark>NCP</mark>, <mark>Nginx</mark>
+  #     - title: 화상채팅
+  #       link: https://github.com/BigHwangTaeYeon/solo
+  #       caption: 2022.10 ~ 2023.02
+  #       quote: >
+  #         랜덤 화상 채팅 서비스 개발
+  #       description: | # this will include new lines to allow paragraphs
+  #         - Java 언어 Spring 프레임워크로 API 및 WebRTC를 P2P 방식으로 구현
+  #         - Redis로 리프레시 토큰 캐싱(인증관련)
+  #         - monolithic -≫ MSA(Spring Cloud) 아키텍쳐 전환
+  #         - Docker
+  #         <br><br>
+  #         기술 스택
+  #           - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
+  #           - <mark>Thymeleaf</mark>
+  # - title: Trouble Shooting
+  #   layout: list
+  #   content:
+  #     - layout: left
+  #       title: 어떡
+  #       link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
+  #       sub_title: 젠킨스 파이프라인
+  #       description: | # this will include new lines to allow paragraphs
+  #           상황 : 
+  #           실행 : 
+  #           결과 : 
+  #       sub_title: 젠킨스 파이프라인
+  #       description: | # this will include new lines to allow paragraphs
+  #           상황 : 
+  #           실행 : 
+  #           결과 : 
+  #       sub_title: 젠킨스 파이프라인
+  #       description: | # this will include new lines to allow paragraphs
+  #           상황 : 
+  #           실행 : 
+  #           결과 : 
+  #       sub_title: 젠킨스 파이프라인
+  #       description: | # this will include new lines to allow paragraphs
+  #           상황 : 
+  #           실행 : 
+  #           결과 : 
+  #     - title: 화상채팅
+  #       link: https://github.com/BigHwangTaeYeon/solo
+  #       description: | # this will include new lines to allow paragraphs
+  #         - 젠킨스 파이프라인
+  #           상황 : 
+  #           실행 : 
+  #           결과 : 
   # - title: Education # Title for the section
   #   layout: list # Type of content section (list/text)
   #   content:
