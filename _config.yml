@@ -63,15 +63,15 @@ content:
         sub_title: Junior Web Developer
         caption: 2023.04 ~ 2023.12
         description: | # this will include new lines to allow paragraphs
-          국악원 아카이브 서비스/관리 시스템 개발/배포/운영
-            빌드 배포 자동화
-            프록시 파일 생성 시, 문제 식별 및 개선
-            전자계약서 솔루션 연계
-            전자 계약서 연계, 운영 환경에서 NoSuchAlgorithmException 문제 해결
+          국악원 아카이브 서비스/관리 시스템 개발/배포/운영<br>
+              빌드 배포 자동화<br>
+              프록시 파일 생성 시, 문제 식별 및 개선<br>
+              전자계약서 솔루션 연계<br>
+              전자 계약서 연계, 운영 환경에서 NoSuchAlgorithmException 문제 해결<br>
           <br>
           기술 스택
-            - <mark>전자정부 프레임워크</mark>, <mark>MyBatis</mark>, <mark>Cubrid</mark>
-            - <mark>Jenkins</mark>, <mark>SVN</mark>
+            - Java, 전자정부 프레임워크, MyBatis, Cubrid
+            - Jenkins, SVN
       - title: 펌프킨
         # link: www.nhncloud.com/kr
         sub_title: Junior Web Developer
@@ -79,7 +79,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           전기차 중전기 제조업체, 통합 관리 시스템 개발<br>
           기술 스택
-            - <mark>Spring</mark>, <mark>MyBatis</mark>, <mark>MS-SQL</mark>
+            - Java, Spring, MS-SQL, MyBatis
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -100,13 +100,13 @@ content:
             <mark>결과</mark> : 5개의 파일을 진행하면 5개의 상태값을 확인하고 5번 호출을 합니다. 이 과정에서 요청 횟수를 배수로 보내 과부하가 걸리는 것을 확인하였습니다. 일단 상태값을 배열로 담아 한번의 요청만 보내는 것으로 수정하였습니다. 그리고 실시간으로 빠른 리소스의 변경이 필요하다 생각하여 polling에서 websocket 으로 개선하였습니다.
       - title: 전자계약서 솔루션 연계
         description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 사용자가 계약서를 수기로 작성하여 pdf로 직접 업로드 하였습니다. 솔루션을 통해 전자 서명을 하고 완료 계약서 파일을 자동으로 업로드하는 연계 작업을 진행하였습니다.<br>
+            <mark>상황</mark> : 계약서를 수기로 작성하여 직접 올린던 것을 솔루션을 통해 자동으로 업로드하는 연계 작업을 진행하였습니다.<br>
             <mark>실행</mark> : 계약서 상태 값에 따른 이력 테이블, webhook 이력 테이블, 계약서 파일 테이블을 설계하였습니다. 상태값에 따른 데이터 저장은 스테이트 패턴으로 설계하였습니다. 단일 책임 원칙에 따라 파일 다운로드, 토큰 생성, 토큰 검증, 통신 기능의 Class를 분리하였습니다<br>
             <mark>결과</mark> : 전자계약서 상태값에 따라 webhook 이벤트로 정상적으로 테이블에 저장되고, 완료된 계약서 파일이 저장되었습니다.
-      - title: 배포 시, NoSuchAlgorithmException 문제 해결
+      - title: NotFoundClassException 문제 해결
         description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 로컬과 개발 환경에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
-            <mark>실행</mark> : 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
+            <mark>상황</mark> : 솔루션 연계 작업을 로컬, 개발에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
+            <mark>실행</mark> : 운영 환경과의 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
             <mark>결과</mark> : 정상적인 작동을 확인하고 업체에서는 그럴리 없다는 답변만 들었던 상황이라 더 확인해본 결과, 썬 마이크로시스템즈가 오라클에 인수되며 해당 JDK는 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서 sun 패키지는 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
 
   - title: Side Projects
@@ -119,19 +119,18 @@ content:
         quote: >
           떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
         description: | # this will include new lines to allow paragraphs
-          Restful API 구현
-          레디스를 활용한 API 캐싱
-          Mybatis -> JPA 마이그레이션
-          Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축
-          TDD 활용 (service layer)
+              Restful API 구현<br>
+              레디스를 활용한 API 캐싱<br>
+              Mybatis -> JPA 마이그레이션<br>
+              Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축<br>
+              TDD 활용 (service layer)<br>
           <br>
           기술 스택
-            - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
-            - <mark>Junit5</mark>, <mark>JPA</mark>, <mark>Jenkins</mark>
-            - <mark>NCP</mark>, <mark>Nginx</mark>
+            - Java, Spring Boot, MariaDB, Redis
+            - Junit5, JPA, Jenkins, Naver Cloud Platform, Nginx
           <br>
-          <mark>상황</mark> : 
-          <mark>실행</mark> : 
+          <mark>상황</mark> : <br>
+          <mark>실행</mark> : <br>
           <mark>결과</mark> : 
       - title: 화상채팅
         link: https://github.com/BigHwangTaeYeon/solo
@@ -139,33 +138,19 @@ content:
         quote: >
           랜덤 화상 채팅 서비스 개발 (백엔드 개발)
         description: | # this will include new lines to allow paragraphs
-          API 및 WebRTC를 P2P 방식으로 구현
-          Redis로 리프레시 토큰 캐싱(인증관련)
-          monolithic -> MSA(Spring Cloud) 아키텍쳐 전환
-          Docker
+              API 및 WebRTC를 P2P 방식으로 구현<br>
+              Redis로 리프레시 토큰 캐싱(인증관련)<br>
+              monolithic -> MSA(Spring Cloud) 아키텍쳐 전환<br>
+              Docker
           <br>
           기술 스택
-            - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>MariaDB</mark>, <mark>Redis</mark>
-            - <mark>Thymeleaf</mark>
+            - Java, Spring Boot, MariaDB, Redis
+            - Thymeleaf
           <br>
           - 젠킨스 파이프라인
-            <mark>상황</mark> : 
-            <mark>실행</mark> : 
+            <mark>상황</mark> : <br>
+            <mark>실행</mark> : <br>
             <mark>결과</mark> : 
-          
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Harvard University
-  #       caption: 2010 - 2013
-  #       sub_title: BSc Computer Science
-  #       quote: >
-  #         Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-  #       description: | # this will include new lines to allow paragraphs
-  #         During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-  #         I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
 
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
@@ -173,16 +158,16 @@ content:
       - layout: left
         title: Backend
         description: |
-            - <mark>Java</mark>, <mark>Spring Boot</mark>, <mark>Spring</mark>
-            - <mark>Spring MVC</mark>, <mark>Spring Security</mark>, <mark>Spring Data JPA/Redis</mark>, <mark>Spring Cloud</mark>
-            - <mark>Eclipse</mark>, <mark>Intellij</mark>
+            - Java, Spring Boot, Spring
+            - Spring MVC, Spring Security, Spring Data JPA/Redis, Spring Cloud
+            - Eclipse, Intellij
       - title: DevOps
         description: |
-            - <mark>Cubrid</mark>, <mark>MySql</mark>, <mark>Redis</mark>
-            - <mark>Jenkins</mark>, <mark>Git</mark>, <mark>Docker</mark>
+            - Cubrid, MySql, Redis
+            - Jenkins, Git, Docker
       - title: Frontend
         description: |
-            - <mark>JSP</mark>, <mark>Java Script</mark>
+            - JSP, Thymeleaf, Java Script
   # - title: A Little More About Me
   #   layout: text
   #   content: |
