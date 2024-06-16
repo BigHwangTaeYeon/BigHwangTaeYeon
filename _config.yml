@@ -58,7 +58,13 @@ content:
     layout: list
     content:
       - layout: left
-        title: 제이케이데이터시스템즈
+        title: 디엑스웨이브
+        # link: https://archive.gugak.go.kr/
+        sub_title: Junior Web Developer
+        caption: 2024.06 ~
+        description: | # this will include new lines to allow paragraphs
+
+      - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
         sub_title: Junior Web Developer
         caption: 2023.04 ~ 2023.12
