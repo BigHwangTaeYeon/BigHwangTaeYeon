@@ -67,7 +67,7 @@ content:
           Restful API 구현<br>
           MSA 아키텍쳐 구축<br>
           kafka connector(debezium)를 활용하여 cdc를 통해 데이터 동기화<br>
-          kafka 를 이용한 대규모 분산 처리 채팅 서비스 구현<br>
+          Kafka를 활용한 채팅 서비스 메시지 디커플링<br>
           DDD(Domain Driven Design)<br>
           <br>
           기술 스택<br>
