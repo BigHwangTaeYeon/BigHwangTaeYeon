@@ -22,7 +22,7 @@ github_username:  BigHwangTaeYeon
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: 태연-황-b42900281
+# linkedin_username: 태연-황-b42900281
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -84,7 +84,7 @@ content:
             데이터 정합성이 중요한 로직에서는 FeignClient 를 이용해 통신을 하였습니다.<br>
           <mark>결과</mark> : 
             cdc를 통해 데이터를 동기화하여 다른 데이터베이스의 데이터를 가져올 수 있었고,<br>
-            데이터 정합성이 중요한 매너 점수 연산에서 통신으로 데이터를 가져와 문제 없이 처리하였습니다.<br>
+            데이터 정합성이 중요한 매너 점수 연산에서 통신으로 데이터를 가져와서 처리하였습니다.<br>
 
           <mark>상황</mark> : 
             채팅 서비스의 메세지 처리를, 카프카를 통해 TPS를 높일 수 있다는 자료를 보게 되었습니다.<br>
@@ -190,7 +190,7 @@ content:
         sub_title: Junior Web Developer
         caption: 2022.10 ~ 2023.02
         description: | # this will include new lines to allow paragraphs
-          전기차 중전기 제조업체, 통합 관리 시스템 개발<br>
+          전기차 충전기 제조업체, 통합 관리 시스템 개발<br>
           인증카드, 요금 부가, 충전 이력 페이지 개발
           <br><br>
           기술 스택
