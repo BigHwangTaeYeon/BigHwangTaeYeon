@@ -236,12 +236,12 @@ content:
         title: Backend
         description: |
             - Java, Spring Boot, Spring
-            - Spring MVC, Spring Security, Spring Data JPA/Redis, Spring Cloud
+            - Spring MVC, Spring Security, Spring Data JPA
             - Eclipse, Intellij
       - title: DevOps
         description: |
-            - Cubrid, MySql, Redis, MongoDB
-            - Jenkins, Git, Docker, Kafka
+            - MySql
+            - Jenkins, Git, Kafka
       - title: Frontend
         description: |
             - JSP, Thymeleaf, Java Script
