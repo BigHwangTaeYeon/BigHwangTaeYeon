@@ -28,26 +28,6 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
-  - title: Skill # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      # - layout: left
-      #   title: Backend
-      - description: |
-            Backend <br><br>
-            - Java, Spring Boot, Spring
-            - Spring MVC, Spring Security, Spring Data JPA
-            - Eclipse, Intellij
-      # - title: DevOps
-      - description: |
-            DevOps <br><br>
-            - MySql
-            - Jenkins, Git, Kafka
-      # - title: Frontend
-      - description: |
-            Frontend <br><br>
-            - JSP, Thymeleaf, Java Script
-
   - title: Projects
     layout: list
     content:
@@ -227,6 +207,23 @@ content:
           <br>
           <mark>결과</mark> : 문제없이 개발 및 운영을 하였습니다.
           <br>
+
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Backend
+        description: |
+            - Java, Spring Boot, Spring
+            - Spring MVC, Spring Security, Spring Data JPA
+            - Eclipse, Intellij
+      - title: DevOps
+        description: |
+            - MySql
+            - Jenkins, Git, Kafka
+      - title: Frontend
+        description: |
+            - JSP, Thymeleaf, Java Script
             
 # Footer
 footer_show_references: true
