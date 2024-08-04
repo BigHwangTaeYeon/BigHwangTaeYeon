@@ -54,6 +54,81 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Projects
+    layout: list
+    content:
+      # - layout: left
+      #   title: 디엑스웨이브
+      #   # link: https://archive.gugak.go.kr/
+      #   sub_title: Junior Web Developer
+      #   caption: 2024.06 ~
+      #   description: | # this will include new lines to allow paragraphs
+
+      - title: 제이케이데이터시스템즈
+        link: https://archive.gugak.go.kr/
+        sub_title: Junior Web Developer
+        caption: 2023.04 ~ 2023.12
+        description: | # this will include new lines to allow paragraphs
+          국악원 아카이브 서비스/관리 시스템 개발/배포/운영<br>
+          아카이브 시스템 담당
+          <br><br>
+          빌드 배포 자동화<br>
+          프록시 파일 생성 시, 문제 식별 및 개선<br>
+          전자계약서 솔루션 연계<br>
+          전자 계약서 연계, 운영 환경에서 NoSuchAlgorithmException 문제 해결<br>
+          전자정부 프레임워크, Cubrid 환경 개발 경험<br>
+          검색엔진 뷰 테이블 분석<br>
+          공공데이터 품질관리 수준 평가<br>
+          계약서 열람 및 다운로드 이력 AOP로 모듈화
+          <br><br>
+          기술 스택
+            - Java, 전자정부 프레임워크, MyBatis, Cubrid
+            - Jenkins, SVN
+      - title: 펌프킨
+        # link: www.nhncloud.com/kr
+        sub_title: Junior Web Developer
+        caption: 2022.10 ~ 2023.02
+        description: | # this will include new lines to allow paragraphs
+          전기차 충전기 제조업체, 통합 관리 시스템 개발<br>
+          인증카드, 요금 부가, 충전 이력 페이지 개발
+          <br><br>
+          기술 스택
+            - Java, Spring, MS-SQL, MyBatis
+            
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 빌드 배포 자동화
+        # sub_title: Senior Network System Administrator
+        # caption: November 2017 - Present
+        # quote: >
+        #   배포 시, FTP를 통해 class 파일을 직접 올리는 방식을 사용해왔습니다. 휴먼 에러와 개발 비용이 많이 소모되는 것을 확인했습니다.
+        description: | # this will include new lines to allow paragraphs
+            <mark>상황</mark> : 배포 시, FTP를 통해 class 파일을 직접 올리는 방식을 사용해왔습니다. 휴먼 에러와 개발 비용이 소모되는 것을 확인했습니다.<br>
+            <mark>실행</mark> : 배포 자동화 도구인 Jenkins 를 통해 파이프라인을 구축했습니다. Stage는 빌드 - 백업 - 배포로 구성하였습니다.<br>
+            <mark>결과</mark> : 빌드 에러를 젠킨스가 알려주고, 많은 시간과 휴먼 에러를 줄일 수 있었습니다.
+      - title: 프록시 파일 생성 문제 식별 및 개선
+        description: | # this will include new lines to allow paragraphs
+            <mark>상황</mark> : 
+              영상, 음향를 프록시 파일로 경량화하여 서비스합니다. 다수의 파일을 생성할 때 서버가 다운되는 문제가 발생했습니다.<br>
+              setTimeOut으로 서버에서 상태값을 재요청하는 방식으로 동작합니다.<br>
+              5개의 파일을 진행하면 5개의 상태값을 확인하고 5번 호출을 합니다. 이 과정에서 요청 횟수를 배수로 보내 과부하가 걸리는 것을 확인하였습니다.<br>
+            <mark>실행</mark> : 
+              1) 일단 상태값을 배열로 담아 한번의 요청만 보내는 것으로 수정하였습니다.<br>
+              2) 실시간으로 빠른 리소스의 변경이 좋다 생각되여 polling에서 websocket 으로 개선하였습니다.<br>
+            <mark>결과</mark> : 다수의 파일을 작업해도 정상적으로 프록시 파일을 생성하는 것을 확인하였습니다.
+      - title: 전자계약서 솔루션 연계
+        description: | # this will include new lines to allow paragraphs
+            <mark>상황</mark> : 계약서를 수기로 작성하여 직접 올린던 것을 솔루션을 통해 자동으로 업로드하는 연계 작업을 진행하였습니다.<br>
+            <mark>실행</mark> : 계약서 상태 값에 따른 이력 테이블, webhook 이력 테이블, 계약서 파일 테이블을 설계하였습니다. 상태값에 따른 데이터 저장은 스테이트 패턴으로 설계하였습니다. 단일 책임 원칙에 따라 파일 다운로드, 토큰 생성, 토큰 검증, 통신 기능의 Class를 분리하였습니다<br>
+            <mark>결과</mark> : 전자계약서 상태값에 따라 webhook 이벤트로 정상적으로 테이블에 저장되고, 완료된 계약서 파일이 저장되었습니다.
+      - title: NotFoundClassException 문제 해결
+        description: | # this will include new lines to allow paragraphs
+            <mark>상황</mark> : 솔루션 연계 작업을 로컬, 개발에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
+            <mark>실행</mark> : 운영 환경과의 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
+            <mark>결과</mark> : 정상적인 작동을 확인하고 업체에서는 그럴리 없다는 답변만 들었던 상황이라 더 확인해본 결과, 썬 마이크로시스템즈가 오라클에 인수되며 해당 JDK는 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서 sun 패키지는 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
+
   - title: Side Projects
     layout: list
     content:
@@ -106,7 +181,7 @@ content:
             ![FactoryMethodPattern](./FactoryMethodPattern.jpg)
           
       - title: 어떡
-        link: https://www.utteok.com https://github.com/Utteok/Type-of-Tteokbokki_Back
+        link: https://github.com/Utteok/Type-of-Tteokbokki_Back
         caption: 2024.02 ~ 2024.02
         quote: >
           떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
@@ -154,80 +229,6 @@ content:
           <br>
           <mark>결과</mark> : 문제없이 개발 및 운영을 하였습니다.
           <br>
-
-  - title: Projects
-    layout: list
-    content:
-      # - layout: left
-      #   title: 디엑스웨이브
-      #   # link: https://archive.gugak.go.kr/
-      #   sub_title: Junior Web Developer
-      #   caption: 2024.06 ~
-      #   description: | # this will include new lines to allow paragraphs
-
-      - title: 제이케이데이터시스템즈
-        link: https://archive.gugak.go.kr/
-        sub_title: Junior Web Developer
-        caption: 2023.04 ~ 2023.12
-        description: | # this will include new lines to allow paragraphs
-          국악원 아카이브 서비스/관리 시스템 개발/배포/운영<br>
-          아카이브 시스템 담당
-          <br><br>
-          빌드 배포 자동화<br>
-          프록시 파일 생성 시, 문제 식별 및 개선<br>
-          전자계약서 솔루션 연계<br>
-          전자 계약서 연계, 운영 환경에서 NoSuchAlgorithmException 문제 해결<br>
-          전자정부 프레임워크, Cubrid 환경 개발 경험<br>
-          검색엔진 뷰 테이블 분석<br>
-          공공데이터 품질관리 수준 평가<br>
-          계약서 열람 및 다운로드 이력 AOP로 모듈화
-          <br><br>
-          기술 스택
-            - Java, 전자정부 프레임워크, MyBatis, Cubrid
-            - Jenkins, SVN
-      - title: 펌프킨
-        # link: www.nhncloud.com/kr
-        sub_title: Junior Web Developer
-        caption: 2022.10 ~ 2023.02
-        description: | # this will include new lines to allow paragraphs
-          전기차 충전기 제조업체, 통합 관리 시스템 개발<br>
-          인증카드, 요금 부가, 충전 이력 페이지 개발
-          <br><br>
-          기술 스택
-            - Java, Spring, MS-SQL, MyBatis
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: 빌드 배포 자동화
-        # sub_title: Senior Network System Administrator
-        # caption: November 2017 - Present
-        # quote: >
-        #   배포 시, FTP를 통해 class 파일을 직접 올리는 방식을 사용해왔습니다. 휴먼 에러와 개발 비용이 많이 소모되는 것을 확인했습니다.
-        description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 배포 시, FTP를 통해 class 파일을 직접 올리는 방식을 사용해왔습니다. 휴먼 에러와 개발 비용이 소모되는 것을 확인했습니다.<br>
-            <mark>실행</mark> : 배포 자동화 도구인 Jenkins 를 통해 파이프라인을 구축했습니다. Stage는 빌드 - 백업 - 배포로 구성하였습니다.<br>
-            <mark>결과</mark> : 빌드 에러를 젠킨스가 알려주고, 많은 시간과 휴먼 에러를 줄일 수 있었습니다.
-      - title: 프록시 파일 생성 문제 식별 및 개선
-        description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 
-              영상, 음향를 프록시 파일로 경량화하여 서비스합니다. 다수의 파일을 생성할 때 서버가 다운되는 문제가 발생했습니다.<br>
-              setTimeOut으로 서버에서 상태값을 재요청하는 방식으로 동작합니다.<br>
-              5개의 파일을 진행하면 5개의 상태값을 확인하고 5번 호출을 합니다. 이 과정에서 요청 횟수를 배수로 보내 과부하가 걸리는 것을 확인하였습니다.<br>
-            <mark>실행</mark> : 
-              1) 일단 상태값을 배열로 담아 한번의 요청만 보내는 것으로 수정하였습니다.<br>
-              2) 실시간으로 빠른 리소스의 변경이 좋다 생각되여 polling에서 websocket 으로 개선하였습니다.<br>
-            <mark>결과</mark> : 다수의 파일을 작업해도 정상적으로 프록시 파일을 생성하는 것을 확인하였습니다.
-      - title: 전자계약서 솔루션 연계
-        description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 계약서를 수기로 작성하여 직접 올린던 것을 솔루션을 통해 자동으로 업로드하는 연계 작업을 진행하였습니다.<br>
-            <mark>실행</mark> : 계약서 상태 값에 따른 이력 테이블, webhook 이력 테이블, 계약서 파일 테이블을 설계하였습니다. 상태값에 따른 데이터 저장은 스테이트 패턴으로 설계하였습니다. 단일 책임 원칙에 따라 파일 다운로드, 토큰 생성, 토큰 검증, 통신 기능의 Class를 분리하였습니다<br>
-            <mark>결과</mark> : 전자계약서 상태값에 따라 webhook 이벤트로 정상적으로 테이블에 저장되고, 완료된 계약서 파일이 저장되었습니다.
-      - title: NotFoundClassException 문제 해결
-        description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 솔루션 연계 작업을 로컬, 개발에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
-            <mark>실행</mark> : 운영 환경과의 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
-            <mark>결과</mark> : 정상적인 작동을 확인하고 업체에서는 그럴리 없다는 답변만 들었던 상황이라 더 확인해본 결과, 썬 마이크로시스템즈가 오라클에 인수되며 해당 JDK는 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서 sun 패키지는 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
 
   - title: Skill # Title for the section
     layout: list # Type of content section (list/text)
