@@ -15,34 +15,8 @@ email: gxd0214@gmail.com
 darkmode: never
  
 # Social links
-# twitter_username: facespics
 github_username:  BigHwangTaeYeon
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
 # linkedin_username: 태연-황-b42900281
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
 about_title: About Me
@@ -54,16 +28,29 @@ about_content: | # this will include new lines to allow paragraphs
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
+  - title: Skill # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      # - layout: left
+      #   title: Backend
+      - description: |
+            Backend <br><br>
+            - Java, Spring Boot, Spring
+            - Spring MVC, Spring Security, Spring Data JPA
+            - Eclipse, Intellij
+      # - title: DevOps
+      - description: |
+            DevOps <br><br>
+            - MySql
+            - Jenkins, Git, Kafka
+      # - title: Frontend
+      - description: |
+            Frontend <br><br>
+            - JSP, Thymeleaf, Java Script
+
   - title: Projects
     layout: list
     content:
-      # - layout: left
-      #   title: 디엑스웨이브
-      #   # link: https://archive.gugak.go.kr/
-      #   sub_title: Junior Web Developer
-      #   caption: 2024.06 ~
-      #   description: | # this will include new lines to allow paragraphs
-
       - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
         sub_title: Junior Web Developer
@@ -240,30 +227,7 @@ content:
           <br>
           <mark>결과</mark> : 문제없이 개발 및 운영을 하였습니다.
           <br>
-
-  - title: Skill # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Backend
-        description: |
-            - Java, Spring Boot, Spring
-            - Spring MVC, Spring Security, Spring Data JPA
-            - Eclipse, Intellij
-      - title: DevOps
-        description: |
-            - MySql
-            - Jenkins, Git, Kafka
-      - title: Frontend
-        description: |
-            - JSP, Thymeleaf, Java Script
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: |
-  #     - [학습](https://github.com/BigHwangTaeYeon/book_cs)
-
-  #     Look at this cool image  
-  #     ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+            
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
