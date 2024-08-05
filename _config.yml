@@ -220,7 +220,7 @@ content:
       - title: DevOps
         description: |
             - MySql
-            - Jenkins, Git, Kafka
+            - Jenkins, Git
       - title: Frontend
         description: |
             - JSP, Thymeleaf, Java Script
