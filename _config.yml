@@ -164,7 +164,7 @@ content:
         quote: >
           떡볶이 추천 서비스 백엔드 개발 담당 (기획자 1, 디자인 1, 프론트 1, 백엔드 1)
         description: | # this will include new lines to allow paragraphs
-          Restful API 구현<br>
+          API 구현<br>
           레디스를 활용한 API 캐싱<br>
           Mybatis -> JPA 마이그레이션<br>
           Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축<br>
