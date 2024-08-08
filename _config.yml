@@ -168,7 +168,6 @@ content:
           레디스를 활용한 API 캐싱<br>
           Mybatis -> JPA 마이그레이션<br>
           Jenkins 파이프라인(빌드, 테스트, 배포 환경) 구축<br>
-          TDD 활용 (service layer)<br>
           <br>
           기술 스택<br>
             Java, Spring Boot, MariaDB, Redis<br>
