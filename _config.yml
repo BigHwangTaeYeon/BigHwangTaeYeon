@@ -31,6 +31,13 @@ content:
   - title: Projects
     layout: list
     content:
+      - title: 더픽트
+        link: https://thepict.co.kr/
+        sub_title: Junior BackEnd Developer
+        caption: 2024.11 ~
+        description: | # this will include new lines to allow paragraphs
+          공공기관 SI/SM, 백엔드 개발/배포/운영
+          
       - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
         sub_title: Junior Web Developer
