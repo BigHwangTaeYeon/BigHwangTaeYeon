@@ -38,13 +38,15 @@ content:
         description: | # this will include new lines to allow paragraphs
           공공기관 SI/SM, 백엔드 개발/배포/운영
           <br>
-          개발 문화 및 환경 개선 : API 명세서, 테이블 명세서, 프로젝트 구조 세팅, Spring -> SpringBoot, Java 8 -> 17<br>
+          개발 문화 및 환경 개선 : 명세화(API, 테이블)<br>
           <br>
           진행 프로젝트<br>
-          LMS(학습 관리 시스템) - 2024.12 - 2025.02
+          LMS(학습 관리 시스템) 백엔드 개발 - 2024.12 - 2025.02
             - URL : 
-            - 기술스택 : Java 17, Spring boot 3.2.3, Jpa, Mybatis, MySQL, NCP
-            - 회원 및 관리자 Restful API 구현, Zoom API 연동, 토스 결제 API 연동, 테이블 설계
+            - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
+            - Restful API 구현
+            - 데이터베이스 설계
+            - Zoom, 토스 결제 API 연동
 
       - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
