@@ -46,7 +46,7 @@ content:
             - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
             - Restful API 구현
             - 데이터베이스 설계
-            - Zoom, 토스 결제 API 연동
+            - Zoom, 토스위젯 API 연동
 
       - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
@@ -107,11 +107,12 @@ content:
             <mark>상황</mark> : 계약서를 수기로 작성하여 직접 올린던 것을 솔루션을 통해 자동으로 업로드하는 연계 작업을 진행하였습니다.<br>
             <mark>실행</mark> : 계약서 상태 값에 따른 이력 테이블, webhook 이력 테이블, 계약서 파일 테이블을 설계하였습니다. 상태값에 따른 데이터 저장은 스테이트 패턴으로 설계하였습니다. 단일 책임 원칙에 따라 파일 다운로드, 토큰 생성, 토큰 검증, 통신 기능의 Class를 분리하였습니다<br>
             <mark>결과</mark> : 전자계약서 상태값에 따라 webhook 이벤트로 정상적으로 테이블에 저장되고, 완료된 계약서 파일이 저장되었습니다.
-      - title: NotFoundClassException 문제 해결
+      - title: JDK 환경 문제 해결
         description: | # this will include new lines to allow paragraphs
-            <mark>상황</mark> : 솔루션 연계 작업을 로컬, 개발에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
-            <mark>실행</mark> : 운영 환경과의 차이점은 JDK 버전으로 확인하였고 이것을 중심으로 해결책을 찾았습니다. keyFactory class 에 ECKeyFactory 인스턴스를 주입해줘야 사용할 수 있다는 것을 확인하였습니다.<br>
-            <mark>결과</mark> : 정상적인 작동을 확인하고 업체에서는 그럴리 없다는 답변만 들었던 상황이라 더 확인해본 결과, 썬 마이크로시스템즈가 오라클에 인수되며 해당 JDK는 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서 sun 패키지는 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
+            <mark>상황</mark> : 솔루션 연계 작업을 로컬, 개발에서 테스트를 완료하고 운영 서버에 배포하였습니다. 업체에서 제공하는 코드 중 자바 라이브러리에서 ECKeyFactory not available 오류가 발생하였습니다.<br>
+            <mark>실행</mark> : 운영환경은 OpenJDK, 개발 및 로컬은 OracleJDK 를 사용했고,<br>
+              해당 라이브러리 구현체를 확인하며 OpenJDK 에서 사용하기 위해서는 팩토리 메서드 패턴으로 구현되어 있는 ECKeyFactory 인스턴스를 주입해줘야 했습니다.<br>
+            <mark>결과</mark> : 썬 마이크로시스템즈가 오라클에 인수되며 sun 패키지가 제공되지 않는 것을 확인하고 Oracle에서도 사용을 추천하지 않는다는 것을 확인하게 되었습니다.
 
   - title: Side Projects
     layout: list
