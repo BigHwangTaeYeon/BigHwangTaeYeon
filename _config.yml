@@ -48,11 +48,11 @@ content:
             - Restful API 구현
             - 데이터베이스 설계
             - Zoom, 토스위젯 API 연동
-            - 외부 API 토큰 관리<br>
-            - 외부 API 통신 원자성 보장<br>
-            - Partitioning<br>
-            - Monitor lock<br>
-            - 반정규화<br>
+            - 외부 API 토큰 관리
+            - 외부 API 통신 원자성 보장
+            - Partitioning
+            - Monitor lock
+            - 반정규화
 
       - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
