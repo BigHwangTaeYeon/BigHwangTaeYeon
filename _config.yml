@@ -43,7 +43,7 @@ content:
           <br>
 
           LMS(학습 관리 시스템) 백엔드 개발 - 2024.12 - 2025.02
-            - URL : 
+            - URL : https://kdm.thepict.co.kr
             - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
             - Restful API 구현
             - 데이터베이스 설계
