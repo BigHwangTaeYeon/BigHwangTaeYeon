@@ -1,0 +1,4 @@
+on:
+  push:
+    branches:
+      - main  # main 브랜치로 푸시할 때 실행되도록 설정
