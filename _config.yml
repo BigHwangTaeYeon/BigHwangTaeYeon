@@ -32,7 +32,7 @@ content:
     layout: list
     content:
       - layout: left
-        title: 더픽트
+      - title: 더픽트
         link: https://thepict.co.kr/
         sub_title: Junior BackEnd Developer
         caption: 2024.11 ~ 2025.02
@@ -51,7 +51,7 @@ content:
         #     - Monitor lock
         #     - 반정규화
 
-        title: 제이케이데이터시스템즈
+      - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
         sub_title: Junior Web Developer
         caption: 2023.04 ~ 2023.12
