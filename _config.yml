@@ -86,7 +86,8 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - title: 제이케이데이터시스템즈
+      - layout: top
+        title: 학습관리시스템
       - layout: left
         title: Zoom API 토큰 관리
         # sub_title: Senior Network System Administrator
