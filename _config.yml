@@ -31,49 +31,49 @@ content:
   - title: Projects
     layout: list
     content:
-      - title: 더픽트
-        link: https://thepict.co.kr/
-        sub_title: Junior BackEnd Developer
-        caption: 2024.11 ~
-        description: | # this will include new lines to allow paragraphs
-          공공기관 SI/SM, 백엔드 개발/배포/운영
-          <br>
-          개발 문화 및 환경 개선 : 명세화(API, 테이블)<br>
-          아키텍쳐 구조 변경<br>
-          <br>
+      title: 더픽트
+      link: https://thepict.co.kr/
+      sub_title: Junior BackEnd Developer
+      caption: 2024.11 ~
+      description: | # this will include new lines to allow paragraphs
+        공공기관 SI/SM, 백엔드 개발/배포/운영
+        <br>
+        개발 문화 및 환경 개선 : 명세화(API, 테이블)<br>
+        아키텍쳐 구조 변경<br>
+        <br>
 
-          LMS(학습 관리 시스템) 백엔드 개발 - 2024.12 - 2025.02
-            - URL : https://kdm.thepict.co.kr
-            - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
-            - Restful API 구현
-            - 데이터베이스 설계
-            - Zoom, 토스위젯 API 연동
-            - 외부 API 토큰 관리
-            - 외부 API 통신 원자성 보장
-            - Partitioning
-            - Monitor lock
-            - 반정규화
+        LMS(학습 관리 시스템) 백엔드 개발 - 2024.12 - 2025.02
+          - URL : https://kdm.thepict.co.kr
+          - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
+          - Restful API 구현
+          - 데이터베이스 설계
+          - Zoom, 토스위젯 API 연동
+          - 외부 API 토큰 관리
+          - 외부 API 통신 원자성 보장
+          - Partitioning
+          - Monitor lock
+          - 반정규화
 
-      - title: 제이케이데이터시스템즈
-        link: https://archive.gugak.go.kr/
-        sub_title: Junior Web Developer
-        caption: 2023.04 ~ 2023.12
-        description: | # this will include new lines to allow paragraphs
-          국악원 아카이브 서비스/관리 시스템 개발/배포/운영<br>
-          아카이브 시스템 담당
-          <br><br>
-          빌드 배포 자동화<br>
-          프록시 파일 생성 시, 문제 식별 및 개선<br>
-          전자계약서 솔루션 연계<br>
-  #          전자 계약서 연계, 운영 환경에서 NoSuchAlgorithmException 문제 해결<br>
-  #          전자정부 프레임워크, Cubrid 환경 개발 경험<br>
-          검색엔진 뷰 테이블 분석<br>
-  #          공공데이터 품질관리 수준 평가<br>
-          계약서 열람 및 다운로드 이력 AOP로 모듈화
-          <br><br>
-          기술 스택
-            - Java, 전자정부 프레임워크, MyBatis, Cubrid
-            - Jenkins, SVN
+  #     - title: 제이케이데이터시스템즈
+  #       link: https://archive.gugak.go.kr/
+  #       sub_title: Junior Web Developer
+  #       caption: 2023.04 ~ 2023.12
+  #       description: | # this will include new lines to allow paragraphs
+  #         국악원 아카이브 서비스/관리 시스템 개발/배포/운영<br>
+  #         아카이브 시스템 담당
+  #         <br><br>
+  #         빌드 배포 자동화<br>
+  #         프록시 파일 생성 시, 문제 식별 및 개선<br>
+  #         전자계약서 솔루션 연계<br>
+  # #          전자 계약서 연계, 운영 환경에서 NoSuchAlgorithmException 문제 해결<br>
+  # #          전자정부 프레임워크, Cubrid 환경 개발 경험<br>
+  #         검색엔진 뷰 테이블 분석<br>
+  # #          공공데이터 품질관리 수준 평가<br>
+  #         계약서 열람 및 다운로드 이력 AOP로 모듈화
+  #         <br><br>
+  #         기술 스택
+  #           - Java, 전자정부 프레임워크, MyBatis, Cubrid
+  #           - Jenkins, SVN
       # - title: 펌프킨
       #   # link: www.nhncloud.com/kr
       #   sub_title: Junior Web Developer
