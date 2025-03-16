@@ -87,7 +87,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top
-        title: 학습관리시스템
+        title: <mark>학습관리시스템</mark>
 
       - layout: left
         title: Zoom API 토큰 관리
@@ -138,7 +138,7 @@ content:
             <mark>결과</mark> : 각 계층 별로 역할을 나누어 SRP 를 지켜낼 수 있었습니다.
 
       - layout: top
-        title: 국악원 아카이브
+        title: <mark>국악원 아카이브</mark>
 
       - title: 빌드 배포 자동화
         description: | # this will include new lines to allow paragraphs
