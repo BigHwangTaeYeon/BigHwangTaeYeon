@@ -34,11 +34,11 @@ content:
       - layout: left
       - title: 더픽트
         link: https://thepict.co.kr/
-        sub_title: Junior BackEnd Developer
+        sub_title: backend position
         caption: 2024.11 ~ 2025.02
         description: | # this will include new lines to allow paragraphs
           공공기관 SI/SM, 백엔드 개발/배포<br>
-          LMS(학습 관리 시스템) 백엔드 개발 - 2024.11 - 2025.02
+          LMS(학습 관리 시스템) 백엔드 개발 - 2024.11 - 2025.02<br>
           기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP(Naver Cloud), Git
         #     - URL : https://kdm.thepict.co.kr
         #     - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
@@ -53,11 +53,10 @@ content:
 
       - title: 제이케이데이터시스템즈
         link: https://archive.gugak.go.kr/
-        sub_title: Junior Web Developer
+        sub_title: full stack position
         caption: 2023.04 ~ 2023.12
         description: | # this will include new lines to allow paragraphs
-          국악원 아카이브 서비스/관리 시스템 개발/배포/운영<br>
-          아카이브 시스템 담당
+          국악원 아카이브 시스템 개발/배포/운영<br>
           기술스택 : Java 8, 전자정부 프레임워크, Mybatis, Cubrid
   #         <br><br>
   #         빌드 배포 자동화<br>
@@ -138,7 +137,7 @@ content:
             <mark>결과</mark> : 각 계층 별로 역할을 나누어 SRP 를 지켜낼 수 있었습니다.
 
       - layout: top
-        title: <mark>국악원 아카이브</mark>
+        title: <mark>국악원 아카이브 시스템</mark>
 
       - title: 빌드 배포 자동화
         description: | # this will include new lines to allow paragraphs
