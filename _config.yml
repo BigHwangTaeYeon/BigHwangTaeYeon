@@ -31,28 +31,29 @@ content:
   - title: Projects
     layout: list
     content:
-      title: 더픽트
-      link: https://thepict.co.kr/
-      sub_title: Junior BackEnd Developer
-      caption: 2024.11 ~
-      description: | # this will include new lines to allow paragraphs
-        공공기관 SI/SM, 백엔드 개발/배포/운영
-        <br>
-        개발 문화 및 환경 개선 : 명세화(API, 테이블)<br>
-        아키텍쳐 구조 변경<br>
-        <br>
+      - layout: left
+        title: 더픽트
+        link: https://thepict.co.kr/
+        sub_title: Junior BackEnd Developer
+        caption: 2024.11 ~ 2025.02
+        description: | # this will include new lines to allow paragraphs
+          공공기관 SI/SM, 백엔드 개발/배포/운영
+          <br>
+          개발 문화 및 환경 개선 : 명세화(API, 테이블)<br>
+          아키텍쳐 구조 변경<br>
+          <br>
 
-        LMS(학습 관리 시스템) 백엔드 개발 - 2024.12 - 2025.02
-          - URL : https://kdm.thepict.co.kr
-          - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
-          - Restful API 구현
-          - 데이터베이스 설계
-          - Zoom, 토스위젯 API 연동
-          - 외부 API 토큰 관리
-          - 외부 API 통신 원자성 보장
-          - Partitioning
-          - Monitor lock
-          - 반정규화
+          LMS(학습 관리 시스템) 백엔드 개발 - 2024.11 - 2025.02
+            - URL : https://kdm.thepict.co.kr
+            - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
+            - Restful API 구현
+            - 데이터베이스 설계
+            - Zoom, 토스위젯 API 연동
+            - 외부 API 토큰 관리
+            - 외부 API 통신 원자성 보장
+            - Partitioning
+            - Monitor lock
+            - 반정규화
 
   #     - title: 제이케이데이터시스템즈
   #       link: https://archive.gugak.go.kr/
