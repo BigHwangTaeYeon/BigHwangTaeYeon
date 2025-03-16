@@ -89,7 +89,7 @@ content:
         title: <h4 style="font-weight:900;">학습관리시스템</h4>
 
       - layout: left
-        title: &#9675; Zoom API 토큰 관리
+        title: ○ Zoom API 토큰 관리
         # sub_title: Senior Network System Administrator
         # caption: November 2017 - Present
         # quote: >
@@ -100,7 +100,7 @@ content:
             <mark>실행</mark> : SSD 보다 MEM에 관리하는 것이 좋다고 판단하였고,<br>
               토큰 필드 값들을 inner class로 설계하여 외부에서 변경이 불가능하며 정적으로 선언하여 메모리를 관리하며 재사용하였습니다.<br>
             <mark>결과</mark> : 데이터베이스 커넥션을 사용하지 않고, I/O 작업을 하지 않아도 토큰을 재사용할 수 있었습니다.
-      - title: 외부 API 사용 시, 원자성 보장
+      - title: ○ 외부 API 사용 시, 원자성 보장
         description: | # this will include new lines to allow paragraphs
             <mark>상황</mark> : 외부 API를 통해 연계작업을 하나의 트랜잭션 경계에 묶어 사용해도 원자성이 보장되지 않는 문제가 있었습니다.<br>
               외부 API를 통해 결제 취소를 하고 해당 결제 취소에 대한 정보를 받아 후 처리하는 작업에서 Exception 이 발생해도 결제 취소에 대한 롤백이 되지 않는 문제가 있었습니다<br>
