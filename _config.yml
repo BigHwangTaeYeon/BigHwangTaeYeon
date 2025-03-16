@@ -89,7 +89,7 @@ content:
         title: <h4 style="font-weight:900;">학습관리시스템</h4>
 
       - layout: left
-        title: Zoom API 토큰 관리
+        title: - Zoom API 토큰 관리
         # sub_title: Senior Network System Administrator
         # caption: November 2017 - Present
         # quote: >
