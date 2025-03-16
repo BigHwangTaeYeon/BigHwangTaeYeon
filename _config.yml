@@ -57,7 +57,7 @@ content:
         caption: 2023.04 ~ 2023.12
         description: | # this will include new lines to allow paragraphs
           국악원 아카이브 시스템 개발/배포/운영<br>
-          기술스택 : Java 8, 전자정부 프레임워크, Mybatis, Cubrid
+          기술스택 : Java 8, 전자정부 프레임워크, Mybatis, Cubrid, Git
   #         <br><br>
   #         빌드 배포 자동화<br>
   #         프록시 파일 생성 시, 문제 식별 및 개선<br>
@@ -86,7 +86,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: text
-        title: <h4 style="font-weight:bold;">학습관리시스템</h4>
+        title: <h4 style="font-weight:900;">학습관리시스템</h4>
 
       - layout: left
         title: Zoom API 토큰 관리
@@ -137,7 +137,7 @@ content:
             <mark>결과</mark> : 각 계층 별로 역할을 나누어 SRP 를 지켜낼 수 있었습니다.
 
       - layout: top
-        title: <h4 style="font-weight:bold;">국악원 아카이브 시스템</h4>
+        title: <h4 style="font-weight:900;">국악원 아카이브 시스템</h4>
 
       - title: 빌드 배포 자동화
         description: | # this will include new lines to allow paragraphs
