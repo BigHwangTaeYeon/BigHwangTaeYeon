@@ -31,7 +31,7 @@ content:
   - title: Projects
     layout: list
     content:
-      - title: 더픽트
+        title: 더픽트
         link: https://thepict.co.kr/
         sub_title: Junior BackEnd Developer
         caption: 2024.11 ~
