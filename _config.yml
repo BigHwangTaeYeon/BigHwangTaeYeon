@@ -88,6 +88,7 @@ content:
     content:
       - layout: top
         title: 학습관리시스템
+
       - layout: left
         title: Zoom API 토큰 관리
         # sub_title: Senior Network System Administrator
@@ -135,6 +136,10 @@ content:
             Repository 는 Jpa, MyBatis 를 같이 사용하기에 해당 Interface 에 맞게 조회할 데이터 가공이 필요할 때 사용됩니다.<br>
             Jpa 는 ORM 으로 객체지향 개발자에게 개발 비용을 낮출 수 있을 거라 판단하여 사용하였고, MyBatis 는 동적쿼리를 위해서 사용됩니다.<br>
             <mark>결과</mark> : 각 계층 별로 역할을 나누어 SRP 를 지켜낼 수 있었습니다.
+
+      - layout: top
+        title: 국악원 아카이브
+
       - title: 빌드 배포 자동화
         description: | # this will include new lines to allow paragraphs
             <mark>상황</mark> : 배포 시, FTP를 통해 class 파일을 직접 올리는 방식을 사용해왔습니다. 휴먼 에러와 개발 비용이 소모되는 것을 확인했습니다.<br>
