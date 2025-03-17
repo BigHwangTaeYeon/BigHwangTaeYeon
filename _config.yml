@@ -291,7 +291,7 @@ content:
         title: Backend
         description: |
             - Java, Spring Boot, Spring
-            - Spring MVC, Spring Security, Spring Data JPA
+            - Spring MVC, Spring Data JPA
             - Eclipse, Intellij
       - title: DevOps
         description: |
