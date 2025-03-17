@@ -155,7 +155,7 @@ content:
       <mark>결과</mark> - Controller, Facade, Service, Repository, JPA - MyBatis로 구분하여 단일 책임 원칙을 적용한 구조로 변경.<br>
       SI 업무를 수행하는데 있어서 기존의 방식보다 다소 시간이 걸릴 수있지만, 추후 SM 업무를 위해 더 나은 방식이라 생각.<br><br>
 
-      <h4 style="font-weight:900;">국악원 아카이브 시스템</h4><br><br>
+      <h4 style="font-weight:900;">국악원 아카이브 시스템</h4><br>
 
       - 빌드 배포 자동화<br>
       <mark>상황</mark> - 기존 배포 방식은 FTP을 통해 컴파일된 .class 파일을 수동으로 서버에 업로드하는 방식으로 휴먼 에러와 많은 시간소요.<br>
