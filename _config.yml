@@ -90,7 +90,7 @@ content:
   - title: Experience # Title for the section
     layout: text # Type of content section (list/text)
     content: 
-      <h4 style="font-weight:900;">학습관리시스템</h4><br><br>
+      <h4 style="font-weight:900;">학습관리시스템</h4><br>
 
       - 수직분할 파티셔닝을 통한 성능 최적화<br>
       <mark> ○ 상황</mark> -
