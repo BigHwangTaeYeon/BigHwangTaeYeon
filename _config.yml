@@ -63,6 +63,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           국악원 아카이브 시스템 개발/배포/운영<br>
           기술스택 : Java, 전자정부 프레임워크, Mybatis, Cubrid, Git
+          <br><br><br><br><br><br>
   #         <br><br>
   #         빌드 배포 자동화<br>
   #         프록시 파일 생성 시, 문제 식별 및 개선<br>
@@ -86,7 +87,6 @@ content:
       #     <br><br>
       #     기술 스택
       #       - Java, Spring, MS-SQL, MyBatis
-            
   - title: Experience # Title for the section
     layout: text # Type of content section (list/text)
     content: 
