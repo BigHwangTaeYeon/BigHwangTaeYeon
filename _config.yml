@@ -23,8 +23,8 @@ about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
   중소기업에서 백엔드 포지션으로 웹 서비스(SI/SM 업무)를 개발/배포/운영을 담당하였습니다.<br>
-  능동적이고 주도적으로 일 하는 것을 좋아하여 주요 업무를 완료한 후, 폴링 > 웹소켓으로 최적화하여 제품 개선을 하고<br>
-  FTP로 배포하는 방식에서 젠킨스 파이프라인을 구축하여 더 효율적인 부분으로 개선하는 것을 좋아합니다.
+  주도적으로 일 하는 것을 좋아하여 주요 업무를 완료한 후, 폴링 > 웹소켓으로 최적화하여 제품 개선을 하고<br>
+  젠킨스 파이프라인을 구축하여 배포 자동화하는 것과 같이 더 효율적인 부분으로 개선하는 것을 좋아합니다.
 
 #  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
