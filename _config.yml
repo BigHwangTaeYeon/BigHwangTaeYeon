@@ -39,9 +39,11 @@ content:
         caption: 2024.11 ~ 2025.02
         description: | # this will include new lines to allow paragraphs
           공공기관 SI/SM, 백엔드 개발/배포<br>
-          LMS(학습 관리 시스템) 백엔드 개발 - 2024.11 - 2025.02<br>
-          구성: 프론트 3, 백엔드 1 (혼자서 전체 백오피스 구축 및 관리)<br>
-          기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP(Naver Cloud), Git
+          LMS(학습 관리 시스템) 백엔드 개발<br>
+          - 2024.11 - 2025.02<br>
+          구성: 프론트 3, 백엔드 1<br>
+          (혼자서 전체 백오피스 구축 및 관리)<br>
+          기술스택 : Java, Spring boot, Jpa, Mybatis, MySQL, NCP(Naver Cloud), Git
           
         #     - URL : https://kdm.thepict.co.kr
         #     - 기술스택 : Java 17, Spring boot, Jpa, Mybatis, MySQL, NCP
@@ -60,7 +62,7 @@ content:
         caption: 2023.04 ~ 2023.12
         description: | # this will include new lines to allow paragraphs
           국악원 아카이브 시스템 개발/배포/운영<br>
-          기술스택 : Java 8, 전자정부 프레임워크, Mybatis, Cubrid, Git
+          기술스택 : Java, 전자정부 프레임워크, Mybatis, Cubrid, Git
   #         <br><br>
   #         빌드 배포 자동화<br>
   #         프록시 파일 생성 시, 문제 식별 및 개선<br>
